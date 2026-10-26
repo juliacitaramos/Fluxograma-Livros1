@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#17142b">
+  <title>Próxima Página — encontre o seu livro</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,600;0,800;1,400&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <header class="top">
+      <div class="brand">
+        <span class="logo" aria-hidden="true">📖</span>
+        <div>
+          <h1>Próxima Página</h1>
+          <p>Cinco capítulos até o seu livro ideal</p>
+        </div>
+      </div>
+      <div class="progress" id="progress" aria-label="Progresso"></div>
+    </header>
+ 
+    <main class="layout">
+      <section class="panel quiz" id="quiz" aria-live="polite"></section>
+      <section class="panel flow" aria-label="Fluxograma da sua jornada">
+        <h2 class="flow-title">❦ O mapa da sua jornada</h2>
+        <div class="flow-col" id="flow"></div>
+      </section>
+    </main>
+ 
+    <footer>
+      <p>“Um livro é um sonho que você segura nas mãos.” — Neil Gaiman</p>
+      <p class="tiny">Preços aproximados; confira em sua livraria preferida.</p>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+ 
